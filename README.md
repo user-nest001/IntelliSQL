@@ -6,9 +6,9 @@ https://github.com/user-attachments/assets/c1235590-e869-47c3-a993-937eab5ccdd8
 
 <div align="center">
   <h3>Watch the Demo</h3>
-  <video src="./Demo/demo_video.mp4" width="100%" controls></video>
+  <video src="https://drive.google.com/drive/folders/11shsr3Ig9EL-qbO9rZGq2pTaD0l-hDJo?usp=share_link" width="100%" controls></video>
   <p>
-    <em>(If the video doesn't play, <a href="./Demo/demo_video.mp4">click here to watch it</a>)</em>
+    <em>(If the video doesn't play, <a href="https://drive.google.com/drive/folders/11shsr3Ig9EL-qbO9rZGq2pTaD0l-hDJo?usp=share_link">click here to watch it</a>)</em>
   </p>
 </div>
 
@@ -41,13 +41,34 @@ To run this project locally, you need the following Python libraries installed:
 ## 📸 Sample Screenshots
 
 ### 1. Home Page
-![Home Page](./Demo/home_page.png)
+![Home Page](https://github.com/user-nest001/INTELLISQL/blob/main/home_page.png)
 
 ### 2. About Page
-![About Page](./Demo/about_page.png)
+![About Page](https://github.com/user-nest001/INTELLISQL/blob/main/about_page.png)
 
 ### 3. Output Page
-![Output Page](./Demo/output_page.png)
+![Output Page](https://github.com/user-nest001/INTELLISQL/blob/main/output_page.png)
+
+---
+## 📂 Project Structure
+
+INTELLISQL/
+│
+├── .venv/                (virtual environment folder)
+├── .env                  (contains GOOGLE_API_KEY)
+├── .gitignore
+│
+├── app.py                (main Streamlit app)
+├── sql.py                (database logic)
+│
+├── data.db               (SQLite database)
+│
+├── database.png          (image)
+├── logo.png              (image)
+├── output.png            (image)
+│
+├── requirements.txt
+└── readme.md
 
 ---
 
